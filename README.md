@@ -1,4 +1,3 @@
-
 Converspace
 ===========
 
@@ -43,3 +42,6 @@ Converspace is:
         * This Pingback like notification system could also be used for private/group messaging in the future. 
 
 
+TODO
+----
+* Apps. Haven't thought about this yet but might need oAuth to support this.
