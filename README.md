@@ -16,7 +16,7 @@ What blogs got wrong:
 * All content was temporal, which makes editing feel dirty and elevates the value of new content over editing existing content.
   * Addind a stream to the personal publishing platform allows for content to be treated as being non-temporal (URIs do not have a time component) and actions on them as the temporal items (addressable via a URI that has a time component) that populate the stream. Kinda like a wiki.
 * Missing real-time publishing
-  * Pubsubhubbub to the resque.
+  * Pubsubhubbub to the rescue.
 
 
 Converspace is:
@@ -31,7 +31,7 @@ Converspace is:
   * Creation of or updates to a resource sends out Pubsubhubbub notifications to anyone that is subscribed (following).
   * Followers will see a stream of all updates to resource they are following.
     * So a user has 3 views
-      * All their content (flat list with a search filter)
+      * All their content
       * Thier own activity stream.
         * Third-party sites will allow actions (like liking, commenting, sharing) on their resources by asking for your converspace URI which in turn will return an ActivityDialogURI (via HTTP header or HTML link tag) that they can popup in a separate window passing in the required parameter (resource, activity, etc.). Since this URI is on your website, it will authenticate you and the action therefore will happen on your site and sned a notification to the thrid-party site about it (see below). This is kinda like a bookmarklet to a URI on your site but invoked by a third-party sites.
       * Activity stream of resources they are following.
