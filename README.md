@@ -51,4 +51,6 @@ TODO
 * Apps. Haven't thought about this yet but might need oAuth to support this.
 
 
-Mocks built with the awesome freely available web demo of Balsamiq.
+Credits:
+--------
+* Mocks built with the awesome freely available web demo of [Balsamiq](http://www.balsamiq.com/).
