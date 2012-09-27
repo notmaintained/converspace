@@ -1,2 +1,1 @@
-
-This project has been moved to http://converspace.github.com/ConverspaceSpec/
+This project has been moved to http://converspace.github.com/specification
