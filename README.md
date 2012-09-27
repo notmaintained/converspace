@@ -23,6 +23,8 @@ What blogs got wrong:
 
 Converspace is:
 ---------------
+* Admin-less (does not have an admin interface).
+* Built on LAMP, the least common denominator platfrom, to facilitate mass-adoption of self-hosting.
 * Like a blog that allows publishing of content of any size or type (long-form, mirco-updates, videos & photos using oembed, links, quotes) via a single textarea.
   * Titles are optional and are part of the syntax (markdown?)
   * #tags are part of the syntax and can be present anywhere in the content (like twitter)
