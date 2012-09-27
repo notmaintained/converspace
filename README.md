@@ -35,7 +35,7 @@ Converspace is:
     * So a user has 3 views
       * All their content
       * Thier own activity stream.
-        * Third-party sites will allow actions (like followi, like, comment, share) on their resources by asking for your converspace URI which in turn will return an ActivityDialogURI (via HTTP header or HTML link tag) that they can popup in a separate window passing in the required parameter (resource, activity, etc.). Since this URI is on your website, it will authenticate you and the action therefore will happen on your site and send a notification to the thrid-party site about it (see below). This is kinda like a bookmarklet to a URI on your site but invoked by a third-party sites.
+        * Third-party sites will allow actions (like follow, like, comment, share) on their resources by asking for your converspace URI which in turn will return an ActivityDialogURI (via HTTP header or HTML link tag) that they can popup in a separate window passing in the required parameter (resource, activity, etc.). Since this URI is on your website, it will authenticate you and the action therefore will happen on your site and send a notification to the thrid-party site about it (see below). This is kinda like a bookmarklet to a URI on your site but invoked by a third-party sites.
       * Activity stream of resources they are following.
   * Followers can comment on or mention resources in their content or like/share resources in their following activity stream.
     * This will send out a notification to each of the resources in the content with an ActivityStream payload describing the activity (comment, mention, like, share, etc.)
