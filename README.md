@@ -46,11 +46,17 @@ Converspace is:
       * Their own activity stream onsite and offsite (via [Activity Dialog](https://github.com/sandeepshetty/converspace/blob/master/ActivityDialog.md))
       * Activity stream of resources they are following.
   * Followers can comment on or mention resources in their content or like/share resources in their following activity stream.
-    * This will send out an [ActivityPingback](https://github.com/sandeepshetty/converspace/blob/master/ActivityPingback.md) to each of the resources in the content with an ActivityStream payload describing the activity (comment, mention, like, share, etc.)
+    * This will send out an [Activity Pingback](https://github.com/sandeepshetty/converspace/blob/master/ActivityPingback.md) to each of the resources in the content with an ActivityStream payload describing the activity (comment, mention, like, share, etc.)
 
 TODO
 ----
 * Apps. Haven't thought about this yet but might need oAuth to support this.
+
+FAQ
+---
+* __Why not oStatus?__
+
+ Salmon and webfinger seem unnecessarily complex. [Activity Pingback](https://github.com/sandeepshetty/converspace/blob/master/ActivityPingback.md) aims to be the natural evolution of [Pingback](http://www.hixie.ch/specs/pingback/pingback).
 
 
 Credits:
