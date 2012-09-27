@@ -3,6 +3,8 @@ Converspace
 
 A personal publishing and distributed conversation/activity platform where you own all your data and all activity on it. Kinda like what blogs should have evolved into.
 
+![Initial Mock](https://raw.github.com/sandeepshetty/converspace/master/mocks/converspace.png)
+
 
 What Twitter got right that blogs are missing:
 ----------------------------------------------
