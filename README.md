@@ -56,7 +56,7 @@ FAQ
 ---
 * __Why not oStatus?__
 
- Salmon and webfinger seem unnecessarily complex. [Activity Pingback](https://github.com/sandeepshetty/converspace/blob/master/ActivityPingback.md) aims to be the natural evolution of [Pingback](http://www.hixie.ch/specs/pingback/pingback).
+ [Salmon](http://www.salmon-protocol.org/) and [WebFinger](http://code.google.com/p/webfinger/) seem unnecessarily complex. [Activity Pingback](https://github.com/sandeepshetty/converspace/blob/master/ActivityPingback.md) aims to be the natural evolution of [Pingback](http://www.hixie.ch/specs/pingback/pingback).
 
 
 Credits:
