@@ -1,1 +1,1 @@
-This project has been moved to http://converspace.github.com/specification
+This project has been moved to http://converspace.github.com/activity-web/
